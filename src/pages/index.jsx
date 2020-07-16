@@ -6,6 +6,7 @@ import Hero from "../components/hero"
 import About from "../components/about"
 import Counters from "../components/counters"
 import Why from "../components/why"
+import Courses from "../components/courses"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     <About />
     <Counters />
     <Why />
+    <Courses />
   </Layout>
 )
 
