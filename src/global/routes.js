@@ -1,0 +1,5 @@
+export const HOME = "/"
+export const COURSES = "/cours"
+export const A_PROPOS = "/a-propos"
+export const CONTACT = "/contact"
+export const CALENDAR = "/calendrier"

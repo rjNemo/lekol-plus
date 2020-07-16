@@ -4,7 +4,7 @@ module.exports = {
     subtitle: ``,
     description: `Institut d'enseignement du primaire au lycée en Guadeloupe`,
     author: `@lekolplus`,
-    siteUrl: "",
+    // siteUrl: "",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
