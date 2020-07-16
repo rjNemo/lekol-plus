@@ -73,8 +73,14 @@ const Footer = ({ siteTitle }) => (
               Tamen quem nulla quae legam multos aute sint culpa legam noster
               magna
             </p>
-            <form action="" method="post">
-              <input type="email" name="email" />
+            <form
+              name="newsletter"
+              action="/success"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="email" name="email" required />
               <input type="submit" value="S'inscrire" />
             </form>
           </div>

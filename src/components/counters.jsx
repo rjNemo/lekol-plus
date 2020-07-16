@@ -5,22 +5,22 @@ const Counters = () => (
     <div class="container">
       <div class="row counters">
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">1232</span>
-          <p>Élèves</p>
+          <span data-toggle="counter-up">100+</span>
+          <p>Élèves satisfaits</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">64</span>
-          <p>Cours</p>
+          <span data-toggle="counter-up">3</span>
+          <p>Niveaux</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">42</span>
-          <p>Ateliers</p>
+          <span data-toggle="counter-up">10+</span>
+          <p>Ateliers organisés</p>
         </div>
 
         <div class="col-lg-3 col-6 text-center">
-          <span data-toggle="counter-up">15</span>
+          <span data-toggle="counter-up">3</span>
           <p>Enseignants</p>
         </div>
       </div>
