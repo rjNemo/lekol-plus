@@ -2,16 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 
+import ButtonCTA from "./buttonCTA"
+
 import * as ROUTES from "../global/routes"
 
 const Header = ({ siteTitle }) => (
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center">
-      <h1 class="logo mr-auto">
+  <header id="header" className="fixed-top">
+    <div className="container d-flex align-items-center">
+      <h1 className="logo mr-auto">
         <Link to={ROUTES.HOME}>{siteTitle}</Link>
       </h1>
-
-      <nav class="nav-menu d-none d-lg-block">
+      <nav className="nav-menu d-none d-lg-block">
         <ul>
           <li>
             <Link to={ROUTES.COURSES}>Cours</Link>
@@ -24,10 +25,7 @@ const Header = ({ siteTitle }) => (
           </li>
         </ul>
       </nav>
-
-      <Link to={ROUTES.CALENDAR} class="get-started-btn">
-        Inscription
-      </Link>
+      <ButtonCTA />
     </div>
   </header>
 )
