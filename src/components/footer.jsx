@@ -50,10 +50,6 @@ const Footer = ({ siteTitle }) => (
             <ul>
               <li>
                 <i className="bx bx-chevron-right"></i>{" "}
-                <Link to={ROUTES.GARDERIE}>Garderie</Link>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right"></i>{" "}
                 <Link to={ROUTES.PRIMAIRE}>Primaire</Link>
               </li>
               <li>
@@ -64,6 +60,10 @@ const Footer = ({ siteTitle }) => (
                 <i className="bx bx-chevron-right"></i>{" "}
                 <Link to={ROUTES.LYCEE}>Lycée</Link>
               </li>
+              <li>
+                <i className="bx bx-chevron-right"></i>{" "}
+                <Link to={ROUTES.ATELIER}>Ateliers</Link>
+              </li>
             </ul>
           </div>
 
@@ -73,8 +73,14 @@ const Footer = ({ siteTitle }) => (
               Tamen quem nulla quae legam multos aute sint culpa legam noster
               magna
             </p>
-            <form action="" method="post">
-              <input type="email" name="email" />
+            <form
+              name="newsletter"
+              action="/success"
+              method="post"
+              data-netlify="true"
+              data-netlify-honeypot="bot-field"
+            >
+              <input type="email" name="email" required />
               <input type="submit" value="S'inscrire" />
             </form>
           </div>
