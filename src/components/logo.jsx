@@ -19,6 +19,7 @@ const Logo = () => {
     <Img
       fluid={data.placeholderImage.childImageSharp.fluid}
       style={{ height: "2rem", width: "2rem" }}
+      className="img-fluid"
     />
   )
 }
