@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Hero from "../components/hero"
 import About from "../components/about"
 import Counters from "../components/counters"
+import Why from "../components/why"
 
 const IndexPage = () => (
   <Layout>
@@ -15,6 +16,7 @@ const IndexPage = () => (
     />
     <About />
     <Counters />
+    <Why />
   </Layout>
 )
 
