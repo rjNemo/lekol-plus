@@ -1,7 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Link } from "gatsby"
 
-const CourseItem = ({ title, price, description, image }) => {
+import * as ROUTES from "../global/routes"
+
+const CourseItem = ({ title, price, description, image, slug }) => {
   return (
     <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
       <div className="course-item">
@@ -13,7 +16,7 @@ const CourseItem = ({ title, price, description, image }) => {
           </div>
 
           <h3>
-            <a href="course-details.html">{title}</a>
+            <Link to={`${ROUTES.COURSES}/${slug}`}>{title}</Link>
           </h3>
           <p>{description}</p>
         </div>
@@ -26,6 +29,7 @@ export default CourseItem
 
 CourseItem.propTypes = {
   title: PropTypes.string.isRequired,
+  slug: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
   description: PropTypes.string.isRequired,
   image: PropTypes.node.isRequired,

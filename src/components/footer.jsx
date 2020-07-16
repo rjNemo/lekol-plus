@@ -50,10 +50,6 @@ const Footer = ({ siteTitle }) => (
             <ul>
               <li>
                 <i className="bx bx-chevron-right"></i>{" "}
-                <Link to={ROUTES.GARDERIE}>Garderie</Link>
-              </li>
-              <li>
-                <i className="bx bx-chevron-right"></i>{" "}
                 <Link to={ROUTES.PRIMAIRE}>Primaire</Link>
               </li>
               <li>
@@ -63,6 +59,10 @@ const Footer = ({ siteTitle }) => (
               <li>
                 <i className="bx bx-chevron-right"></i>{" "}
                 <Link to={ROUTES.LYCEE}>Lycée</Link>
+              </li>
+              <li>
+                <i className="bx bx-chevron-right"></i>{" "}
+                <Link to={ROUTES.ATELIER}>Ateliers</Link>
               </li>
             </ul>
           </div>

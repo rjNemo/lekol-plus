@@ -8,7 +8,8 @@ import img3 from "../static/img/course-3.jpg"
 
 const data = [
   {
-    title: "Garderie",
+    title: "Primaire",
+    slug: "primaire",
     price: 10,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus sunt, porro animi vel officiis?",
@@ -16,6 +17,7 @@ const data = [
   },
   {
     title: "Collège",
+    slug: "college",
     price: 15,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus sunt, porro animi vel officiis?",
@@ -23,6 +25,7 @@ const data = [
   },
   {
     title: "Lycée",
+    slug: "lycee",
     price: 18,
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse necessitatibus sunt, porro animi vel officiis?",
