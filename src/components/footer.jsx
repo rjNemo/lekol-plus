@@ -99,7 +99,7 @@ const Footer = ({ siteTitle }) => (
         </div>
         <div className="credits">
           Design par{" "}
-          <a href="http://sage-tech.com" target="_blank">
+          <a href="https://sage-tech.com" target="_blank">
             Sage Tech
           </a>
         </div>
